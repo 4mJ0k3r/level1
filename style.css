@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+w
+@font-face {
+    font-family: 'Gilroy';
+    src: url('C:/Users/lavis/Downloads/gilroy-free/Gilroy-FREE/Gilroy-Regular.woff2') format('woff2'),
+         url('C:/Users/lavis/Downloads/gilroy-free/Gilroy-FREE/Gilroy-Regular.woff') format('woff'),
+         url('C:/Users/lavis/Downloads/gilroy-free/Gilroy-FREE/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  

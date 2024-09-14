@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="main w-full h-screen bg-white px-4 py-3 font-['gilroy']">
+        <div class="container relative h-screen mx-auto">
+           
+            <div id="nav" class="nav-bar flex items-center justify-between w-full py-5 px-4 bg-white-500">
+                <h3 id="logo" class="font-semibold">iamlavish.yadav</h3>
+                <div class="hidden lg:flex links flex gap-5">
+                    <a id="link1" class="text-sm font-semibold"  href="#">Works</a>
+                    <a id="link2" class="text-sm  opacity-50" href="#">Contact</a>
+                    <a id="link3" class="text-sm  opacity-50" href="#">Service</a>
+                    <a id="link4" class="text-sm  opacity-50" href="#">Pricing</a>
+                </div>
+                <i class="ri-menu-line lg:hidden"></i>
+            </div>
+
+          
+            <div id="main" class="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-full flex flex-col items-center">
+                <div class="image w-24 h-24 bg-slate-200 rounded-full flex items-center justify-between">
+                    <img class="w-full h-full" src="f87790050d4e0716ba6f7b78acdf1e2a-removebg-preview.png" alt="">
+                </div>
+                <h3 id="greeting" class="font-semibold text-xl lg:2xl mt-4 tracking-tighter">Hi, I'm Lavish👋</h3>
+                <h1 id="headline" class="w-2/3 text-3xl lg:text-5xl font-semibold tracking-tighter leading-none mt-3 text-center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, deserunt!
+                </h1>
+                <h4 id="description" class="text-center w-2/3 mt-6 text-sm lg:text-lg opacity-50 font-semibold">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate possimus quod expedita ipsa cumque labore ducimus repellat similique soluta quia.
+                </h4>
+                <button id="ctaButton" class="px-4 py-2 lg:px-6 py-3 text-xs lg:text-sm bg-black text-white rounded-full mt-4 font-semibold lg:font-regular tracking-tight">
+                    Connect With Me
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
